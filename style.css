@@ -1,0 +1,23 @@
+body{
+  background-color: rgba(0,0,0,0.05);
+}
+div{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  border: solid 1px black;
+  border-shadow: 2px 8px 120;
+  position: sticky;
+  top: 0;
+}
+div.container{
+  height:600px;
+  width: 100%;
+  background-color: black;
+  position: sticky;
+}
+div.inside{
+  height: 1000px;
+  width: 30%;
+  background-image: linear-gradient(red,green);
+}
